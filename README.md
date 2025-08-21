@@ -268,4 +268,4 @@ examples/
 
 ## Support
 
-For technical support and questions about the API, please contact our support team or refer to the individual example files for implementation guidance.
+For technical support and questions about the API, please contact our support team at **support@vatcompliance.co** or refer to the individual example files for implementation guidance.
