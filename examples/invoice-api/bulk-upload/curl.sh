@@ -37,7 +37,8 @@ curl -X POST \
     "total": 3678.30,
     "total_discount_amount": 0.00,
     "supplier_tax_number": "987654321",
-    "supplier_country": "USA"
+    "supplier_country": "USA",
+    "tax_rate": 22.0
   },
   {
     "invoice_number": "INV-2024-002",
@@ -63,6 +64,7 @@ curl -X POST \
     "total": 364.78,
     "total_discount_amount": 0.00,
     "supplier_tax_number": "987654321",
-    "supplier_country": "USA"
+    "supplier_country": "USA",
+    "tax_rate": 22.0
   }
 ]'

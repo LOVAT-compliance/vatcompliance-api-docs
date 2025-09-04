@@ -94,6 +94,7 @@ The Invoice Feed API allows merchants to upload invoice data in real-time or in 
 | `total_discount_amount` | Float | Total discount amount | Required. Decimal with 2 places |
 | `supplier_tax_number` | String | Supplier tax number | Optional. Max 25 characters |
 | `supplier_country` | String | Supplier country code | Optional. ISO 3166-1 alpha-3 format |
+| `tax_rate` | Float | Tax percentage | Required |
 
 #### Line Item Parameters
 
@@ -118,7 +119,7 @@ The Credit Note Feed API allows merchants to upload credit note data in real-tim
 #### Credit Note Data Parameters
 
 | Parameter | Type | Description | Validation |
-|-----------|------|-------------|------------|
+|-----------|------|-------------|-----------|
 | `credit_note_number` | String | Unique credit note identifier | Optional. Max 255 characters |
 | `customer_id` | Integer | Existing customer ID in system | Optional. Must exist in customer database |
 | `customer_name` | String | Customer business name | Required. Max 255 characters |
@@ -137,6 +138,7 @@ The Credit Note Feed API allows merchants to upload credit note data in real-tim
 | `total_discount_amount` | Float | Total discount amount | Required. Decimal with 2 places |
 | `supplier_tax_number` | String | Supplier tax number | Optional. Max 25 characters |
 | `supplier_country` | String | Supplier country code | Optional. ISO 3166-1 alpha-3 format |
+| `tax_rate` | Float | Tax percentage | Required |
 
 #### Line Item Parameters
 

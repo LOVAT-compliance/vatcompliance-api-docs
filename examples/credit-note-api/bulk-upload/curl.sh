@@ -40,7 +40,8 @@ curl -X POST \
     "supplier_address": "456 Tech Street, San Francisco, CA 94102",
     "supplier_email": "billing@techsolutions.com",
     "supplier_tax_number": "987654321",
-    "supplier_country": "USA"
+    "supplier_country": "USA",
+    "tax_rate": 22.0
   },
   {
     "credit_note_number": "CN-2024-002",
@@ -69,6 +70,7 @@ curl -X POST \
     "supplier_address": "456 Tech Street, San Francisco, CA 94102",
     "supplier_email": "billing@techsolutions.com",
     "supplier_tax_number": "987654321",
-    "supplier_country": "USA"
+    "supplier_country": "USA",
+    "tax_rate": 22.0
   }
 ]'

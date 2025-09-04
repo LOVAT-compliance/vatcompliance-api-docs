@@ -56,7 +56,38 @@ namespace VatComplianceApi.Examples
                     total = 3678.30,
                     total_discount_amount = 0.00,
                     supplier_tax_number = "987654321",
-                    supplier_country = "USA"
+                    supplier_country = "USA",
+                    tax_rate = 22.0
+                },
+                new
+                {
+                    invoice_number = "INV-2024-002",
+                    customer_name = "Tech Solutions Ltd",
+                    customer_email = "info@techsolutions.com",
+                    customer_country = "GBR",
+                    customer_tax_number = "GB123456789",
+                    customer_address = "456 Tech Street, London, SW1A 1AA",
+                    invoice_date = "2024-01-16",
+                    due_date = "2024-02-16",
+                    currency = "EUR",
+                    status = "draft",
+                    line_items = new[]
+                    {
+                        new
+                        {
+                            description = "Software License",
+                            quantity = 1,
+                            unit_price = 299.00,
+                            tax = true
+                        }
+                    },
+                    subtotal = 299.00,
+                    total_tax = 65.78,
+                    total = 364.78,
+                    total_discount_amount = 0.00,
+                    supplier_tax_number = "987654321",
+                    supplier_country = "USA",
+                    tax_rate = 22.0
                 }
             };
             
