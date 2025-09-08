@@ -298,7 +298,7 @@ The API supports both real-time and bulk operations with automatic data validati
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/l_invoice/e_documents/invoices/{access_token}/`
+- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/invoices/{access_token}/`
 
 ## Authentication
 
@@ -608,7 +608,7 @@ The API supports both real-time and bulk operations with automatic data validati
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/l_invoice/e_documents/credit-notes/{access_token}/`
+- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/credit-notes/{access_token}/`
 
 
 ## Authentication
@@ -920,7 +920,7 @@ The API supports real-time status queries with secure access control based on co
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/l_invoice/e_documents/status-by-id/{access_token}/{document_id}/`
+- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/status-by-id/{access_token}/{document_id}/`
 
 ## Authentication
 
