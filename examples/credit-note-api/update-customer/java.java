@@ -12,7 +12,7 @@ public class UpdateCreditNote {
         HttpClient client = HttpClient.newHttpClient();
         
         // API endpoint
-        String url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/credit_notes/your-access-token/1234";
+        String url = "https://api.lappa.org/api/1/app/l_invoice/credit_notes/your-access-token/1234";
         
         // Update data as JSON string
         String json = "{\"credit_note_date\":\"2024-01-20\",\"due_date\":\"2024-02-20\",\"status\":\"sent\",\"line_items\":[{\"description\":\"Updated Web Development Services Refund\",\"quantity\":15,\"unit_price\":75.00,\"tax\":true},{\"description\":\"Additional Consulting Refund\",\"quantity\":5,\"unit_price\":100.00,\"tax\":true}],\"subtotal\":1625.00,\"total_tax\":357.50,\"total\":1982.50,\"total_discount_amount\":0.00}";

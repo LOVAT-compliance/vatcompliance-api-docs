@@ -14,7 +14,7 @@ import (
  */
 func main() {
     // API endpoint
-    url := "https://invoice.vatcompliance.co/api/1/app/l_invoice/credit_notes/your-access-token"
+    url := "https://api.lappa.org/api/1/app/l_invoice/credit_notes/your-access-token"
     
     // Credit note data
     credit_notes := []map[string]interface{}{

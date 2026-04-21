@@ -4,7 +4,7 @@
 # This script demonstrates how to upload multiple credit notes to the VAT Compliance API
 
 curl -X POST \
-"https://invoice.vatcompliance.co/api/1/app/l_invoice/credit_notes/your-access-token" \
+"https://api.lappa.org/api/1/app/l_invoice/credit_notes/your-access-token" \
 -H "Content-Type: application/json" \
 -d '[
   {

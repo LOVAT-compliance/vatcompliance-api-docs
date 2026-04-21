@@ -8,7 +8,7 @@ require 'uri'
 require 'json'
 
 # API endpoint
-url = URI("https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/{customer_id}/{access_token}")
+url = URI("https://api.lappa.org/api/1/app/l_invoice/customers/{customer_id}/{access_token}")
 
 # Setup HTTP client
 http = Net::HTTP.new(url.host, url.port)

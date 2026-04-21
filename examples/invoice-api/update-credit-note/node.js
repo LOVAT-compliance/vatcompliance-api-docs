@@ -6,7 +6,7 @@
 const fetch = require("node-fetch");
 
 // API endpoint
-const url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/invoices/your-access-token/1234";
+const url = "https://api.lappa.org/api/1/app/l_invoice/invoices/your-access-token/1234";
 
 // Update data
 const update_data = {

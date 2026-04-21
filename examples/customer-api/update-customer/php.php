@@ -5,7 +5,7 @@
  */
 
 // API endpoint
-$url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
+$url = "https://api.lappa.org/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
 
 // Update data
 $data = [

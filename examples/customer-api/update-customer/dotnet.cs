@@ -17,7 +17,7 @@ namespace VatComplianceApi.Examples
             var client = new HttpClient();
             
             // API endpoint
-            var url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
+            var url = "https://api.lappa.org/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
             
             // Update data
             var payload = new

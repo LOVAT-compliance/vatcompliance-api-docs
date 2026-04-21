@@ -29,7 +29,7 @@ All APIs support both real-time and bulk operations, with automatic data validat
 All API requests require an access token for authentication. Include your token in the URL path:
 
 ```
-https://invoice.vatcompliance.co/api/1/app/l_invoice/{endpoint}/{access_token}
+https://api.lappa.org/api/1/app/l_invoice/{endpoint}/{access_token}
 ```
 
 ## API Endpoints
@@ -266,7 +266,7 @@ examples/
 
 ## Base URLs
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/`
+- **Production**: `https://api.lappa.org/api/1/app/l_invoice/`
 
 
 # E-Invoices API Documentation
@@ -298,7 +298,7 @@ The API supports both real-time and bulk operations with automatic data validati
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/invoices/{access_token}/`
+- **Production**: `https://api.lappa.org/api/1/app/l_invoice/e_documents/invoices/{access_token}/`
 
 ## Authentication
 
@@ -608,7 +608,7 @@ The API supports both real-time and bulk operations with automatic data validati
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/credit-notes/{access_token}/`
+- **Production**: `https://api.lappa.org/api/1/app/l_invoice/e_documents/credit-notes/{access_token}/`
 
 
 ## Authentication
@@ -920,7 +920,7 @@ The API supports real-time status queries with secure access control based on co
 
 ## URL
 
-- **Production**: `https://invoice.vatcompliance.co/api/1/app/l_invoice/e_documents/status-by-id/{access_token}/{document_id}/`
+- **Production**: `https://api.lappa.org/api/1/app/l_invoice/e_documents/status-by-id/{access_token}/{document_id}/`
 
 ## Authentication
 
@@ -1158,4 +1158,4 @@ Retrieve document details when assisting customers with invoice or credit note i
 
 ## Support
 
-For technical support and questions about the API, please contact our support team at **support@vatcompliance.co** or refer to the individual example files for implementation guidance.
+For technical support and questions about the API, please contact our support team at **support@lappa.org** or refer to the individual example files for implementation guidance.

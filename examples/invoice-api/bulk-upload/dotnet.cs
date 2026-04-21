@@ -14,7 +14,7 @@ namespace VatComplianceApi.Examples
         static async Task Main()
         {
             // API endpoint
-            var url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/invoices/your-access-token";
+            var url = "https://api.lappa.org/api/1/app/l_invoice/invoices/your-access-token";
             
             // Create HTTP client
             var client = new HttpClient();

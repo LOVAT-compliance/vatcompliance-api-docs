@@ -14,7 +14,7 @@ import (
  */
 func main() {
     // API endpoint
-    url := "https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/your-access-token"
+    url := "https://api.lappa.org/api/1/app/l_invoice/customers/your-access-token"
     
     // Customer data
     customers := []map[string]interface{}{

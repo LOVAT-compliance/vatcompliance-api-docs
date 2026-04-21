@@ -4,7 +4,7 @@
 # This script demonstrates how to update an existing credit note in the VAT Compliance API
 
 curl -X PUT \
-"https://invoice.vatcompliance.co/api/1/app/l_invoice/credit_notes/your-access-token/1234" \
+"https://api.lappa.org/api/1/app/l_invoice/credit_notes/your-access-token/1234" \
 -H "Content-Type: application/json" \
 -d '{
   "credit_note_date": "2024-01-20",

@@ -4,7 +4,7 @@
 # This script demonstrates how to upload multiple customers to the VAT Compliance API
 
 curl -X POST \
-"https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/your-access-token" \
+"https://api.lappa.org/api/1/app/l_invoice/customers/your-access-token" \
 -H "Content-Type: application/json" \
 -d '[
 {

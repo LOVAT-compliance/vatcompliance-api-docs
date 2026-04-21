@@ -12,7 +12,7 @@ public class UpdateCustomer {
         HttpClient client = HttpClient.newHttpClient();
         
         // API endpoint
-        String url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
+        String url = "https://api.lappa.org/api/1/app/l_invoice/customers/{customer_id}/{access_token}";
         
         // Update data as JSON string
         String json = """

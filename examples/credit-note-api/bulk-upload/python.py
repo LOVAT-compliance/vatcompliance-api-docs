@@ -8,7 +8,7 @@ import requests
 import json
 
 # API endpoint
-url = "https://invoice.vatcompliance.co/api/1/app/l_invoice/credit_notes/your-access-token"
+url = "https://api.lappa.org/api/1/app/l_invoice/credit_notes/your-access-token"
 
 # Headers
 headers = {"Content-Type": "application/json"}
