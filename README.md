@@ -1,6 +1,6 @@
 # VAT Compliance API Documentation
 
-Comprehensive documentation and examples for Lovat Invoice API integration. This API enables merchants to manage customers, invoices, and credit notes efficiently while maintaining compliance with tax regulations.
+Comprehensive documentation and examples for Lappa Invoice API integration. This API enables merchants to manage customers, invoices, and credit notes efficiently while maintaining compliance with tax regulations.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ https://api.lappa.org/api/1/app/l_invoice/{endpoint}/{access_token}
 
 ### Customer API
 
-The Customer API allows merchants to upload customer data in real-time or in bulk. Customer data flows automatically and securely into Lovat, enabling businesses to manage their customer database efficiently.
+The Customer API allows merchants to upload customer data in real-time or in bulk. Customer data flows automatically and securely into Lappa, enabling businesses to manage their customer database efficiently.
 
 #### Endpoints
 
@@ -65,7 +65,7 @@ The Customer API allows merchants to upload customer data in real-time or in bul
 
 ### Invoice API
 
-The Invoice Feed API allows merchants to upload invoice data in real-time or in bulk. Invoice data flows automatically and securely into Lovat, enabling businesses to generate, manage, and track invoices efficiently.
+The Invoice Feed API allows merchants to upload invoice data in real-time or in bulk. Invoice data flows automatically and securely into Lappa, enabling businesses to generate, manage, and track invoices efficiently.
 
 #### Endpoints
 
@@ -109,7 +109,7 @@ The Invoice Feed API allows merchants to upload invoice data in real-time or in 
 
 ### Credit Note API
 
-The Credit Note Feed API allows merchants to upload credit note data in real-time or in bulk. Credit note data flows automatically and securely into Lovat, enabling businesses to generate, manage, and track credit notes efficiently.
+The Credit Note Feed API allows merchants to upload credit note data in real-time or in bulk. Credit note data flows automatically and securely into Lappa, enabling businesses to generate, manage, and track credit notes efficiently.
 
 #### Endpoints
 
@@ -256,7 +256,7 @@ examples/
 | Term | Definition |
 |------|------------|
 | **API** | Application Programming Interface. A set of calls provided by the system for integration with external software products. |
-| **Merchant** | The owner of an online store or business using the Lovat platform. |
+| **Merchant** | The owner of an online store or business using the Lappa platform. |
 | **Customer** | An individual or business entity who purchases goods or services from the merchant. |
 | **Invoice** | A commercial document issued by a seller to a buyer, indicating the products, quantities, and agreed prices for products or services. |
 | **Credit Note** | A commercial document issued by a seller to a buyer, indicating a reduction in the amount owed for previously issued invoices. |
